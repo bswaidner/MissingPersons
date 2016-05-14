@@ -87,19 +87,51 @@
 		CB0AC3611CE3C2F70064ACA0 /* MissingPersons */ = {
 			isa = PBXGroup;
 			children = (
+				CB405BE11CE7BCF800816E58 /* Services */,
+				CB405BDE1CE7BCBE00816E58 /* Model */,
+				CB405BDF1CE7BCC400816E58 /* View */,
+				CB405BE01CE7BCCA00816E58 /* Controller */,
 				CB0AC3621CE3C2F70064ACA0 /* AppDelegate.swift */,
-				CB0AC3641CE3C2F70064ACA0 /* ViewController.swift */,
-				CB0AC3661CE3C2F70064ACA0 /* Main.storyboard */,
 				CB0AC36C1CE3C2F70064ACA0 /* Assets.xcassets */,
-				CB0AC36E1CE3C2F70064ACA0 /* LaunchScreen.storyboard */,
 				CB0AC3711CE3C2F70064ACA0 /* Info.plist */,
 				CB0AC3691CE3C2F70064ACA0 /* MissingPersons.xcdatamodeld */,
-				CB1325DB1CE4432D0091AF62 /* PersonCell.swift */,
 				CB21322E1CE664CE00EE9328 /* MissingPersons-Bridging-Header.h */,
-				CB0C912B1CE77AE700FF81F0 /* Person.swift */,
-				CB0C912D1CE77C6300FF81F0 /* FaceService.swift */,
 			);
 			path = MissingPersons;
+			sourceTree = "<group>";
+		};
+		CB405BDE1CE7BCBE00816E58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB1325DB1CE4432D0091AF62 /* PersonCell.swift */,
+				CB0C912B1CE77AE700FF81F0 /* Person.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB405BDF1CE7BCC400816E58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AC3661CE3C2F70064ACA0 /* Main.storyboard */,
+				CB0AC36E1CE3C2F70064ACA0 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CB405BE01CE7BCCA00816E58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AC3641CE3C2F70064ACA0 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB405BE11CE7BCF800816E58 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB0C912D1CE77C6300FF81F0 /* FaceService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
